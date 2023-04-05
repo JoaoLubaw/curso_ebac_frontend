@@ -1,54 +1,70 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+*{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'PT Serif', serif;
 }
 
+body{
+    background-color: #faf98d
+}
 
-.container {
-    margin: 80px auto;
-    max-width: 640px;
-    width: 100%;
+header {
+    background-color: #5e4343;
+    padding: 24px 0;
+    display: flex;
+    border-bottom: 3px dashed rgb(255, 255, 255);
+    justify-content:left;
+}
+
+header h1 {
+    margin-left: 16px;
+    margin-right: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+    color:whitesmoke
 }
 
 form {
-    margin-top: 40px;
+    margin-left: 400px;
+    font-family: 'PT Serif', serif;
 }
 
-input, textarea, button {
-    display: block;
-    padding: 8px;
-    margin-bottom: 8px;
-    width: 100%;
-    resize: none;
+input, button {
+    padding: 8px 13px;
+    background-color: #6349499d;
+    border: 1px solid whitesmoke;
 }
 
-button {
-    background-color: #62b0f0;
-    border: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    font-style: italic;
-    cursor: pointer;
+input{
+    padding: 8px 30px;
+    color: white;
 }
 
-button:hover {
-    background-color: #69b5f4;
+input::placeholder {
+    color: white;
 }
 
-.sucesso {
-    background-color: rgb(113, 244, 98);
-    padding: 16px;
-    color:#000000;
-    display:none;
+button{
+    color:white;
 }
 
-.erro {
-    background-color: red;
-    padding: 16px;
-    color: #000000;
-    display:none;
+ul {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size:24px;
+    display: inline-block;
+}
+
+ul li{
+    list-style:circle;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.feito {
+    text-decoration: line-through;
+    list-style:none;
 }

@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contagem</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Você sabe contar?</h1>
-        <form id="form" >
-            <input type="number" id="A" required placeholder="(A) Escreva um número" />
-            <input type="number" id="B" required placeholder="(B) Escreva um número maior que o anterior" />
-            <button type="submit">Descobrir</button>
+    <header>
+        <h1>Lista de Tarefas</h1>
+        <form>
+            <input type="text" id="tarefa" required placeholder="Tarefa">
+            <button type="submit">+</button>
         </form>
-        <p class="sucesso">Parabéns</p>
-        <p class="erro">Hmmm... Sinto muito, eu teria de responder que não, mas acho que você só se enganou...Que tal tentar novamente?</p>
-    </div>
-    <script src="./main.js"></script>
+    </header>
+    <ul>
+        <li id="item">varrer a casa</li>
+        <li id="item" class="feito">Limpar o chão</li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/main.js"></script>
 </body>
 </html>
