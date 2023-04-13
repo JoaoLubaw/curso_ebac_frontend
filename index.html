@@ -34,7 +34,7 @@
                     <input type=email class="form-control form-control-sm" id="email"></input>
 
                     <label class="form-label" for="elefone">Seu telefone:</label> 
-                    <input type=tel class="form-control form-control-sm" id="telefone"></input>
+                    <input type=tel name="telefone" class="form-control form-control-sm" id="telefone"></input>
 
                     <div class="form-check form-switch">
                         <label class="form-check-label" for="termos">Li e concordo com os termos do site.</label> 
@@ -43,7 +43,7 @@
                     
                 </div>
                     
-                <button class="btn btn-dark"> Entrar na toca </button>
+                <button class="btn btn-dark">Entrar na toca </button>
                 </form>
             </div>
         </div>
@@ -82,5 +82,16 @@
 
 
 </style>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="jquery.mask.min.js"></script>
+
+<script>
+$('#telefone').mask('(00) 00000-0000',{
+    placeholder: '(__) _____-____'
+})
+</script>
+
 </body>
 </html>
