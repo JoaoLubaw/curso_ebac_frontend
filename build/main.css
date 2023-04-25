@@ -39,7 +39,7 @@ header .container {
   font-weight: bold;
   margin-left: 24px;
 }
-.menu li li a {
+.menu li a {
   color: #f5f6fa;
   text-decoration: none;
 }

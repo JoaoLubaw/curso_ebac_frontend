@@ -33,12 +33,14 @@ header {
 
     li {
     font-weight: bold;
-    margin-left: 24px;
-
-    li a {
-    color: variaveis.$Branco;
-    text-decoration: none;
-}}}
+    margin-left: 24px; 
+    
+    a {
+        color:variaveis.$Branco;
+        text-decoration: none;
+    }
+}
+}
 
 section {
     padding: 56px 0;
