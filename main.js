@@ -25,3 +25,4 @@ const JoaoPaulo = new Funcionario("João Paulo", "Programador", "Fazer Programa"
 const LucasMorsh = new Funcionario("Lucas Morsh", "Primo Fictício do João", "Ser lindo", "Meu amor");
 
 const Julia = new Funcionario("Julia Ana", "Best", "Irritar o João", 0);
+
